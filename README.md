@@ -20,11 +20,11 @@ The main idea behind _Telepath Mini_ is to generate a music stream based on the 
 
 You are able to use _tags_ that will describe: 
 
-- era or time (which is my personal favorite, for example tags like `summer 1995` or `1988-1990` will bring you the stream with a popular tracks of that time)
+- era or time (which is my personal favorite, for example tags like `summer 1995` or `1988-1990` will bring you the stream with popular tracks of that time)
 - mood (`sentimental`)
 - genres (`brit pop, new wave`)
 - artists (`arctic monkeys`) 
-- or even mix them together (`1990, indie rock`)
+- or even mix them together (`1990, sentimental, indie rock`)
 
 #### Add songs to your [Spotify] playlists
 

@@ -4,7 +4,7 @@
 
 > Tiny music player for OS X written in pure JS.
 
-<img src="https://dl.dropboxusercontent.com/u/100463011/telepath-dribbble-promo.png" alt="Telepath on Dribbble" width="600">
+<img src="https://dl.dropboxusercontent.com/u/100463011/telepath-dribbble-promo.png" alt="Telepath on Dribbble" width="600" style="border-radius:3px;">
 
 ### [Download](http://labs.voronianski.com/get-telepath-mini)
 

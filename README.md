@@ -8,7 +8,7 @@
 
 ### [Download](http://labs.voronianski.com/get-telepath-mini)
 
-## Usage and Features
+## Usage
 
 #### Connect your [Spotify](http://spotify.com) account
 

@@ -1,4 +1,6 @@
-# Telepath Mini [![](http://img.shields.io/badge/Status-In%20Progress-green.svg?style=flat-square)](https://github.com/voronianski/telepath-mini/commits/master)
+# Telepath Mini 
+
+[![](http://img.shields.io/badge/Status-In%20Progress-green.svg?style=flat-square)](https://github.com/voronianski/telepath-mini/commits/master)
 
 > Tiny music player for OS X written in pure JS.
 

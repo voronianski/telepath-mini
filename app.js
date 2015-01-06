@@ -4,11 +4,11 @@ require('Common');
 var $ = process.bridge.objc;
 
 var win = new Window();
-// win.frame = false;
+
 win.extendIntoTitle = true;
 win.titleTransparent = true;
 win.titleVisible = false;
-win.backgroundColor = 'rgba(0,0,0,0)'; //'#1C2029';
+win.backgroundColor = 'rgba(0,0,0,0)';
 win.width = 280;
 win.height = 370;
 win.shadow = false;

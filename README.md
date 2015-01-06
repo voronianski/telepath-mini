@@ -10,25 +10,35 @@
 
 ## Usage and Features
 
-##### Connect your [Spotify](http://spotify.com) account
+#### Connect your [Spotify](http://spotify.com) account
 
-First _Telepath_ version works only with Spotify premium accounts.
+First _Telepath Mini_ version works only with Spotify Premium accounts.
 
-##### Create music stream by unique tags 
+#### Create music stream using tags 
 
-For example you are able to use tags that will describe specific era or time (e.g. `summer 1995`, `80s`), specific genre (`brit pop`, `new wave`), similar artists or even mix them (`1990, indie rock`).
+The main idea behind _Telepath Mini_ is to generate a music stream based on the list of tags specified by listener.
 
-#### Add songs to your Spotify playlists
+You are able to use _tags_ that will describe: 
 
-Just select one of your already created playlists to drop track to Spotify.
+- era or time (which is my personal favorite, for example tags like `summer 1995` or `1988-1990` will bring you the stream with a popular tracks of that time)
+- mood (`sentimental`)
+- genres (`brit pop, new wave`)
+- artists (`arctic monkeys`) 
+- or even mix them together (`1990, indie rock`)
+
+#### Add songs to your [Spotify] playlists
+
+Just select one of your already created playlists to drop playing track into Spotify.
 
 ## Road Map
 
-The main goal for the second version is to make _Telepath_ more suitable in terms of common desktop music player. I don't know yet whether the second version will be released as separate app or not but the main points are:
+The main goal for the second version is to make _Telepath Mini_ more suitable in terms of common desktop music player. 
 
-- [ ] make Spotify accounts optional
-- [ ] add support for iTunes library
-- [ ] add integration with Soundcloud
+I don't know yet whether the second version will be released as separate app but the main points to cover are:
+
+- make Spotify accounts optional
+- add support for iTunes library
+- add integration with Soundcloud
 
 ## Technologies
 

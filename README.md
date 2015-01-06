@@ -26,9 +26,11 @@ You are able to use _tags_ that will describe:
 - artists (`arctic monkeys`) 
 - or even mix them together (`1990, sentimental, indie rock`)
 
-#### Add songs to your [Spotify] playlists
+#### Add songs to your [Spotify](http://spotify.com) playlists
 
 Just select one of your already created playlists to drop playing track into Spotify.
+
+## Technologies
 
 ## Road Map
 
@@ -38,9 +40,8 @@ I don't know yet whether the second version will be released as separate app but
 
 - make Spotify accounts optional
 - add support for iTunes library
-- add integration with Soundcloud
+- add integration with [Soundcloud](http://soundcloud.com)
 
-## Technologies
 
 ## Contribution
 

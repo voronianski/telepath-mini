@@ -1914,8 +1914,9 @@ var $menuLink = document.querySelectorAll('.menu-show')[0];
 var $menuWrap = document.querySelectorAll('.menu-wrap')[0];
 
 $menuLink.addEventListener('click', function () {
-    $coverBar.classList.add('blur');
-    $menuWrap.classList.add('slide-in');
+    // $coverBar.classList.add('blur');
+    // $menuWrap.classList.add('slide-in');
+    window.postMessageToHost('resize');
 });
 
 },{"progressbar.js":4}]},{},[9]);

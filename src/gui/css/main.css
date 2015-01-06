@@ -3,21 +3,23 @@
 @import url('icons.css');
 
 body {
-    background: #1C2029;
+    /*background: #1C2029;*/
+    background: transparent;
     font-family: 'Muli', 'Helvetica Neue', sans-serif;
     overflow: hidden;
     -webkit-user-select: none;
 }
 
 .cover {
-    width: 100%;
+    width: 280px;
     height: 370px;
     position: relative;
     overflow: hidden;
-    -webkit-transform: translate3d(-100px, 0, 0);
+    border-radius: 4px;
 }
 .cover img {
     height: 100%;
+    margin-left: -35px;
     position: absolute;
     top: 0;
 }
@@ -28,7 +30,7 @@ body {
 
 .cover-hover {
     background-color: rgba(11, 13, 16, 0.9);
-    width: 100%;
+    width: 280px;
     height: 100%;
     position: absolute;
     top: 0;
@@ -138,17 +140,42 @@ body {
     z-index: 10;
 }
 .menu-show {
-    color: rgba(255,255,255,.2);
+    color: rgba(255, 255, 255, 0.18);
     text-decoration: none;
-    font-size: 22px;
+    font-size: 16px;
     position: absolute;
-    left: 8px;
-    bottom: 16px;
+    right: 36px;
+    top: 40px;
     z-index: 10;
+    background-color: rgba(255, 255, 255, 0.12);
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+    text-align: center;
+    line-height: 30px;
+    vertical-align: top;
+    transition: all .2s ease-in;
+}
+.menu-show:hover {
+    color: rgba(255, 255, 255,0.9);
+    background-color: rgba(58, 155, 215, 0.92);
+}
+
+.hidden-block {
+    width: 160px;
+    height: 341px;
+    border: 1px solid rgba(17, 20, 22, 1);
+    background-color: rgba(12, 12, 13, 0.93);
+    position: absolute;
+    top: 15px;
+    right: 0;
+    border-radius: 0 4px 4px 0;
+    /*box-shadow: inset 1px 0px 4px -3px #111;*/
+    z-index: -1;
 }
 
 .menu-wrap {
-    background-color: rgba(34, 35, 38, .96);
+    background-color: rgba(0, 0, 0, .96);
     /*background-color: rgba(22, 23, 27, .95);*/
     /*background-color: rgba(235, 237, 244, 0.98);*/
     /*background-color: rgba(189, 195, 199, .9);*/

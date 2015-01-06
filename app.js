@@ -19,6 +19,10 @@ view.top = 0;
 view.left = view.right = view.bottom = 0;
 view.transparent = true;
 view.location = 'app://src/gui/index.html';
+view.addEventListener('message', function (e) {
+    console.log(e);
+    win.width = 440;
+});
 win.appendChild(view);
 
 var text = new TextInput();
@@ -34,6 +38,8 @@ text.nativeView('setFont', font);
 application.icon = 'http://img02.cdn2-rdio.com/album/4/9/2/0000000000018294/2/square-1200.jpg';
 
 win.visible = true;
+win.animateOnSizeChange = true;
+win.animateOnPositionChange = true;
 win.canBeFullscreen = true;
 // win.maximizeButton = false;
 win.alwaysOnTop = true;

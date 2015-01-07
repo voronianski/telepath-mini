@@ -37,10 +37,10 @@ text.nativeView('setFont', font);
 
 application.icon = 'http://img02.cdn2-rdio.com/album/4/9/2/0000000000018294/2/square-1200.jpg';
 
-win.visible = true;
 win.animateOnSizeChange = true;
 win.animateOnPositionChange = true;
 win.canBeFullscreen = true;
 // win.maximizeButton = false;
 win.alwaysOnTop = true;
 win.resizable = false;
+win.visible = true;

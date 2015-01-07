@@ -45,4 +45,6 @@ I don't know yet whether the second version will be released as separate app but
 
 ## Contribution
 
+[Trello Board](https://trello.com/b/sWP3epBZ)
+
 ## License

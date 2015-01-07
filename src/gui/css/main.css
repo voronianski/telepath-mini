@@ -10,6 +10,7 @@ body {
     -webkit-user-select: none;
 }
 
+.welcome,
 .cover {
     width: 280px;
     height: 370px;
@@ -17,6 +18,24 @@ body {
     overflow: hidden;
     border-radius: 4px;
 }
+
+.welcome {
+    background-color: rgba(12, 12, 13, 0.93);
+}
+
+.login-spotify {
+    display: block;
+    margin: 0 auto;
+    position: absolute;
+    bottom: 30px;
+    width: 80%;
+    left: 0;
+    right: 0;
+}
+.login-spotify img {
+    width: 100%;
+}
+
 .cover img {
     height: 100%;
     margin-left: -35px;

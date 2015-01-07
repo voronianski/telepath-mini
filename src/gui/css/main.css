@@ -5,22 +5,24 @@
 body {
     /*background: #1C2029;*/
     background: transparent;
+    color: #fff;
     font-family: 'Muli', 'Helvetica Neue', sans-serif;
     overflow: hidden;
     -webkit-user-select: none;
+    -webkit-font-smoothing: antialiased;
 }
 
-.welcome,
-.cover {
+.container {
     width: 280px;
     height: 370px;
     position: relative;
     overflow: hidden;
     border-radius: 4px;
+    cursor: default;
 }
 
-.welcome {
-    background-color: rgba(12, 12, 13, 0.93);
+.dark-bg {
+    background-color: rgba(12, 12, 13, 0.95);
 }
 
 .login-spotify {
@@ -36,7 +38,7 @@ body {
     width: 100%;
 }
 
-.cover img {
+.container img.cover {
     height: 100%;
     margin-left: -35px;
     position: absolute;
@@ -94,8 +96,10 @@ body {
 .cover-circle {
     /*background: url('http://img00.cdn2-rdio.com/album/4/8/2/0000000000454284/8/square-1200.jpg') no-repeat center;*/
     /*background: url('http://img02.cdn2-rdio.com/album/a/9/8/00000000004db89a/3/square-1200.jpg') no-repeat center;*/
-    background: url('http://img00.cdn2-rdio.com/album/c/6/1/00000000004f316c/2/square-1200.jpg') no-repeat center;
+    /*background: url('http://img00.cdn2-rdio.com/album/c/6/1/00000000004f316c/2/square-1200.jpg') no-repeat center;*/
     /*background: url('http://img02.cdn2-rdio.com/album/4/9/2/0000000000018294/2/square-1200.jpg') no-repeat center;*/
+    background-repeat: no-repeat;
+    background-position: center;
     background-size: cover;
     width: 180px;
     height: 180px;
@@ -145,7 +149,8 @@ body {
     transition: color .2s ease-in;
 }
 .controls a:hover {
-    color: #3A9BD7;
+    color: #e41f1f;
+    /*color: #3A9BD7;*/
     /*color: #DE428F;*/
     /*color: #81BE40;*/
 }
@@ -265,5 +270,53 @@ body {
   93.333333% { -webkit-transform: matrix3d(1.00042, 0, 0, 0, 0, 1.00042, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform: matrix3d(1.00042, 0, 0, 0, 0, 1.00042, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
   96.666667% { -webkit-transform: matrix3d(1.00056, 0, 0, 0, 0, 1.00056, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform: matrix3d(1.00056, 0, 0, 0, 0, 1.00056, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
   100% { -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);}
+}
+
+
+
+
+.playlists {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.playlists .subtitle {
+    font-size: 10px;
+    margin: 0 0 5px 8px;
+    text-transform: uppercase;
+}
+.playlists .liner {
+    border-top: 1px solid rgba(0,0,0,.1);
+    box-shadow: inset -1px 2px 0px -1px rgba(255,255,255,0.08);
+    padding: 11px 0 0;
+}
+.playlists ul {
+    margin-bottom: 8px;
+    text-align: center;
+}
+.playlists li {
+    display: inline-block;
+    float: left;
+    vertical-align: top;
+}
+.playlists img {
+    display: block;
+    margin: 3px;
+    width: 48px;
+    height: 48px;
+    border-radius: 2px;
+    cursor: pointer;
+    transition: all .2s ease-in-out;
+}
+.playlists img:hover {
+    margin-top: -1px;
+}
+.playlists li:first-child img {
+    margin-left: 8px;
+}
+.playlists li:last-child img {
+    margin-right: 8px;
 }
 

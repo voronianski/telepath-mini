@@ -1,8 +1,8 @@
 var ProgressBar = require('progressbar.js');
 
 var progressBar = new ProgressBar.Circle('#circle-bar', {
-    // color: '#DE428F', '#81BE40'
-    color: '#3A9BD7',
+    // color: '#DE428F', '#81BE40', '#3A9BD7'
+    color: '#E41F1F',
     strokeWidth: 2.3,
     trailWidth: 2,
     trailColor: 'rgba(255,255,255,.1)',

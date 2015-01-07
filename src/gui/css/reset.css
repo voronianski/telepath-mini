@@ -56,3 +56,33 @@ html {
 *, *:before, *:after {
   box-sizing: inherit;
 }
+
+.left {
+    float: left;
+}
+.right {
+    float: right;
+}
+.hide {
+    display: none;
+}
+.visible {
+    visibility: visible;
+}
+.hidden {
+    visibility: hidden;
+}
+.capcase {
+    text-transform: capitalize;
+}
+
+.clearfix {
+    display: block;
+}
+.clearfix:after {
+    content: '.';
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}

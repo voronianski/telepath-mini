@@ -3,4 +3,5 @@ build
 node_modules
 bower_components
 components
+src/gui/dist
 *.log

@@ -1,6 +1,7 @@
 @import url('http://fonts.googleapis.com/css?family=Muli:300,400,300italic,400italic');
 @import url('reset.css');
 @import url('icons.css');
+@import url('tags.css');
 
 body {
     /*background: #1C2029;*/

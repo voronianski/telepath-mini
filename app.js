@@ -7,11 +7,12 @@ var win = new Window();
 
 win.extendIntoTitle = true;
 win.titleTransparent = true;
+win.alwaysOnTop = true;
+win.textured = true;
 win.titleVisible = false;
-win.backgroundColor = 'rgba(0,0,0,0)';
 win.width = 280;
 win.height = 370;
-win.shadow = false;
+// win.shadow = false;
 
 var view = new WebView();
 view.alpha = 0.98;
@@ -39,8 +40,6 @@ application.icon = 'http://img02.cdn2-rdio.com/album/4/9/2/0000000000018294/2/sq
 
 win.animateOnSizeChange = true;
 win.animateOnPositionChange = true;
-win.canBeFullscreen = true;
 // win.maximizeButton = false;
-win.alwaysOnTop = true;
 win.resizable = false;
 win.visible = true;

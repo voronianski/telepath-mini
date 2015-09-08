@@ -1,6 +1,8 @@
 {
-  "name": "telepath-mini",
+  "name": "Telepath Mini",
+  "longname": "telepath-mini",
   "version": "0.0.0",
+  "namespace": "com.voronianski.telepathmini",
   "description": "Tiny and smart music player for OS X",
   "main": "app.js",
   "dependencies": {
@@ -9,9 +11,20 @@
     "react-tagsinput": "^0.2.1",
     "spotify-web": "^1.3.0"
   },
+  "icon": {
+    "windows": [
+      "./tintruntime.png"
+    ],
+    "osx": [
+      "./tintruntime.png"
+    ]
+  },
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "sources": {
+    "directory": "."
   },
   "repository": {
     "type": "git",
